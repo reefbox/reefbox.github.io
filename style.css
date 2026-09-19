@@ -2501,4 +2501,15 @@ body {
         border-radius: 0 !important;
         padding: 0 !important;
     }
+
+   /* Ajanın hatalı iç kutu kilitlerini ez ve sayfa kaydırmasını düzelt */
+html, body {
+    overflow-y: auto !important;
+    height: auto !important;
+}
+
+/* İçerdeki kutuların fareyi yutmasını (Scroll Trap) engelle */
+.main-container, .tab-panel, .glass-panel, .glass-subpanel {
+    overflow-y: visible !important;
+
 }
